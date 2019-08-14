@@ -19,6 +19,7 @@ namespace DatingApp.API.Controllers
         public ValuesController(DataContext context) => this._context = context;
 
         // GET api/values
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> Get()
         {
