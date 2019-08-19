@@ -30,6 +30,7 @@
               "src/styles.scss"
             ],
             "scripts": [
+              "node_modules/alertifyjs/build/alertify.min.js"
             ],
             "es5BrowserSupport": true
           },
